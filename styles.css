@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}  
+.instagram-post{ 
+    background-color: white; 
+    width: 300px; 
+    border: 1px; 
+    border-style: solid; 
+    border-color: azure;
+}
+.post-header {
+    background-color: white; 
+    color:black;
+    border: 0px; 
+    border-style: solid; 
+    width: 100%; 
+    border-color: blue;
+    display: flex; 
+    }
+
+.title { 
+    margin-left: 10px;
+} 
+p { 
+    padding: 5px;
+}
