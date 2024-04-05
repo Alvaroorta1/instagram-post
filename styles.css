@@ -5,7 +5,8 @@ body{
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    height: 100vh;
+    height: 100vh; 
+    padding: 10px;
 }  
 .instagram-post{ 
     background-color: white; 
@@ -22,11 +23,28 @@ body{
     width: 100%; 
     border-color: blue;
     display: flex; 
-    }
-
+     }
 .title { 
     margin-left: 10px;
 } 
 p { 
     padding: 5px;
+} 
+.img-abajo { 
+float:right;
+} 
+.arte{ 
+    margin-left: 15px;
+    } 
+.titulo-icono { 
+flex-direction: column;  
+margin-top: 10px; 
+}
+.img-arriba{ 
+float: right; 
+margin-top: 0 !important;
+} 
+.separacion{ 
+    margin-left: 180px;
+    
 }
